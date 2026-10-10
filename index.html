@@ -461,6 +461,17 @@ main{width:100%;overflow-x:clip;padding:0.5rem;display:flex;flex-direction:colum
 .ld-fill{height:100%;width:100%;background:#fff;transform:scaleX(0);transform-origin:left}
 .ld-fill.go{transform:scaleX(1);transition:transform 1280ms var(--ease-io-cubic) 120ms}
 @media (prefers-reduced-motion:reduce){.ld-fill.go{transition-duration:150ms;transition-delay:0ms}.loader{transition:none}}
+
+/* Alastar-style display typography: bold Manrope, sentence case, tight tracking */
+.hero h1{font-family:var(--display);font-weight:700;text-transform:none;letter-spacing:-0.055em;line-height:0.95;font-size:11.4vw}
+.hero h1 .wc{padding-bottom:0.14em;margin-bottom:-0.14em;padding-right:0.02em}
+.tagline{font-family:var(--display);font-weight:600;text-transform:none;letter-spacing:-0.035em;line-height:1.02}
+.ghost{text-transform:none;letter-spacing:-0.05em;font-weight:700}
+.mitem{text-transform:none;font-weight:700;letter-spacing:-0.045em}
+.h2,.fbig,.m-title{font-weight:700;letter-spacing:-0.04em;line-height:1}
+.mn-nav a{font-family:var(--display);font-weight:700;letter-spacing:-0.04em}
+.pname,.edu-txt h3,.sk-tool b,.ig-id b,.tt-id b,.rtxt b,.badge h3{font-family:var(--display);font-weight:700;letter-spacing:-0.025em}
+.sv,.fyp-meta b,.tt-stats dd,.ig-stats dd,.pf-stats dd{font-family:var(--display);font-weight:700}
 </style>
 </head>
 <body>
@@ -496,7 +507,7 @@ main{width:100%;overflow-x:clip;padding:0.5rem;display:flex;flex-direction:colum
     <div class="hero-tw"><h1 id="hero-title" data-words="Adly Naufal"></h1></div>
 
     <div class="hero-bottom">
-      <p class="tagline" id="heroTag" data-lines="Marketing &amp;|Content Creator"></p>
+      <p class="tagline" id="heroTag" data-lines="Marketing &amp;|content creator."></p>
       <div class="cluster">
         <div class="coll" id="coll">
           <div class="coll-stack glass" id="collStack"></div>
